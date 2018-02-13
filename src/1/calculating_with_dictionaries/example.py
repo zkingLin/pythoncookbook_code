@@ -28,4 +28,6 @@ prices_sorted = sorted(zip(prices.values(), prices.keys()))
 for price, name in prices_sorted:
     print('    ', name, price)
 
-
+plt.plot([1,2,3,4])
+plt.ylabel('numbers')
+plt.show()
